@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">+51-904347606</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h1 class="logo"><a href="/">Baristas</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <!-- Ícono de usuario que redirige al perfil -->
+                    <a href="perfil.html" title="Perfil del usuario">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <!-- Ícono de carrito de compras que redirige al carrito -->
+                    <a href="carrito.html" title="Carrito de compras">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </a>
+                    <div class="content-shopping-cart">
+                        <!-- Texto del carrito -->
+                        <span class="text">Carrito</span>
+                        <!-- Número de productos dinámico -->
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="#">Expreso</a></li>
+                    <li><a href="#">Capuchino</a></li>
+                    <li><a href="informacion.html">Informacion</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Nueva Sección de Contacto -->
+        <section class="contact-section">
+            <div class="container container-contact">
+                <h2 class="title-contact">Contáctanos</h2>
+                <p class="description-contact">
+                    Si tienes preguntas, inquietudes o simplemente deseas ponerte en contacto con nosotros, por favor llena el siguiente formulario o utiliza nuestros datos de contacto.
+                </p>
+
+                <div class="contact-grid">
+                    <!-- Información de contacto -->
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i> Dirección: 71 Pennington Lane Vernon Rockville, CT 06066</li>
+                            <li><i class="fa-solid fa-phone"></i> Teléfono: +51 904347606</li>
+                            <li><i class="fa-solid fa-envelope"></i> Email: baristas@support.com</li>
+                        </ul>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <div class="contact-form">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: 71 Pennington Lane Vernon Rockville, CT
+                            06066
+                        </li>
+                        <li>Teléfono: +51 904347606</li>
+                        <li>Fax: 55555300</li>
+                        <li>EmaiL: baristas@support.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                        <span class="pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín informativo</p>
+
+                    <div class="content">
+                        <p>
+                            Suscríbete a nuestros boletines ahora y mantente al
+                            día con nuevas colecciones y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    baristas &copy; 2024
+                </p>
+
+                <img src="img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>   
+
+    <script
+			src="https://kit.fontawesome.com/dea164d054.js"
+			crossorigin="anonymous"
+		></script>
+</body>
+</html>
